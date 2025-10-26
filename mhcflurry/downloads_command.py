@@ -27,7 +27,7 @@ import sys
 import argparse
 import logging
 import os
-from pipes import quote
+from shlex import quote
 import errno
 import tarfile
 from shutil import copyfileobj

@@ -11,7 +11,7 @@ import logging
 import yaml
 from os.path import join, exists
 from os import environ
-from pipes import quote
+from shlex import quote
 from collections import OrderedDict
 from appdirs import user_data_dir
 from pkg_resources import resource_string
